@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-er-4235-746</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <audio id="23-er-4235-746" preload="none" controls></audio>
+    <script>
+        if(Hls.isSupported()) {
+            var audio = document.getElementById('23-er-4235-746');
+            var hls = new Hls();
+            hls.loadSource('https://vod-stream.nhk.jp/gogaku-stream/23-er-4235-746/index.m3u8');
+            hls.attachMedia(audio);
+        }
+    </script>
+</body>
+</html>
+
